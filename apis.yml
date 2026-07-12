@@ -41,6 +41,8 @@ apis:
       - type: x-api-endpoint
         url: https://dati.toscana.it/api/3/action/status_show
 common:
+  - type: DomainSecurity
+    url: security/dati-toscana-it-domain-security.yml
   - type: Website
     url: https://dati.toscana.it
   - type: Documentation
